@@ -11,7 +11,7 @@
 <h4 align="center">
     <p>
         <b href="https://github.com/fajri91/IndoMMLU/">Bahasa Indonesia</b> |
-        <a href="https://github.com/fajri91/IndoMMLU/README_EN/">English</a> 
+        <a href="https://github.com/fajri91/IndoMMLU/blob/main/README_EN.md">English</a> 
     <p>
         <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
         📄 <a href="https://arxiv.org/abs/2306.09212" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
