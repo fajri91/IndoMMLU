@@ -37,7 +37,7 @@ The following table displays the performance of models in the five-shot and zero
 
 #### Zero-shot Evaluation
 
- | Model (#param) | STEM | Social Science | Humanities | Indonesian Lang. | Local languages and cultures | Average |
+ | Model (#param) | STEM | Social Science | Humanities | Indonesian Lang. | Local L. Culture | Average |
  |---------------------|------|----------|-------------|---------|----------|---------|
  | Random | 21.9 | 23.4 | 23.5 | 24.4 | 26.6 | 24.4 |
  | [GPT-3.5 (175B)](https://chat.openai.com/) | **54.3** | **62.5** | **64.0** | **62.2** | 39.3 | **53.2** |
