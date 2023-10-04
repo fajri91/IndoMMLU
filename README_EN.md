@@ -13,13 +13,12 @@
         <a href="https://github.com/fajri91/IndoMMLU/">Bahasa Indonesia</a> |
         <b>English</b> 
     <p>
+        <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
+        📄 <a href="https://arxiv.org/abs/2306.09212" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
+        🏆 <a href="https://github.com/fajri91/IndoMMLU/#leaderboard" target="_blank"  style="margin-left: 10px">Leaderboard</a> •
+        🤗 <a href="https://huggingface.co/datasets/indolem/indommlu" target="_blank" style="margin-left: 10px">Dataset</a> 
+        </p>
 </h4>
-
-<p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
-📄 <a href="https://arxiv.org/abs/2306.09212" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
-🏆 <a href="https://github.com/fajri91/IndoMMLU/#leaderboard" target="_blank"  style="margin-left: 10px">Leaderboard</a> •
-🤗 <a href="https://huggingface.co/datasets/indolem/indommlu" target="_blank" style="margin-left: 10px">Dataset</a> 
-</p>
 
 ## Introduction
 
@@ -27,7 +26,7 @@ We introduce IndoMMLU, the first multi-task language understanding benchmark for
 which consists of questions from primary school to university entrance exams in Indonesia. By employing professional teachers, 
 we obtain 14,906 questions across 63 tasks and education levels, with 46\% of the questions focusing on assessing proficiency 
 in the Indonesian language and knowledge of nine local languages and cultures in Indonesia.
-<p align="center"> <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-dist.png?raw=true" style="width: 60%;" id="title-icon">       </p>
+<p align="left"> <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-dist.png?raw=true" style="width: 50%;" id="title-icon">       </p>
 
 ## Subjects
 
@@ -42,9 +41,9 @@ We categorize the collected questions into different subject areas, including: (
 
 ## Examples
 
-<p align="center"> 
-    <img src="https://github.com/fajri91/eval_picts/blob/master/min_example.png?raw=true" style="width: 40%;" id="title-icon"> 
-    <img src="https://github.com/fajri91/eval_picts/blob/master/sec_example.png?raw=true" style="width: 40%;" id="title-icon">
+<p align="left"> 
+    <img src="https://github.com/fajri91/eval_picts/blob/master/min_example.png?raw=true" style="width: 38%;" id="title-icon"> 
+    <img src="https://github.com/fajri91/eval_picts/blob/master/sec_example.png?raw=true" style="width: 37%;" id="title-icon">
 </p>
 
 ## Evaluation
@@ -80,24 +79,26 @@ The following table displays the performance of models in the five-shot and zero
  | [Bactrian-X-LLaMA (7B)](https://github.com/mbzuai-nlp/bactrian-x) | 23.3 | 24.0 | 26.0 | 26.1 | 27.5 | 25.7 |
  | [Bactrian-X-LLaMA (13B)](https://github.com/mbzuai-nlp/bactrian-x) | 28.3 | 29.9 | 32.8 | 35.2 | 29.2 | 30.3 |
 
+#### GPT-3.5 performance (% accuracy) across different education levels
+
+<p align="left"> 
+    <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-result.png?raw=true" style="width: 38%;" id="title-icon">
+</p>
+
+
+
 ## How to submit 
 
 * For open-source/API models, open pull request to update the result (you can also provide test code in `src` folder).
 * For not open-source/API models, update results in the cooresponding part and open pull request.
 
 ## Data
+Each question in the dataset is a multiple-choice questions with up to 5 choices and only one choice as the correct answer. 
 We provide our dataset according to each subject in [data](data) folder. You can also access our dataset via [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
 
 #### Quick Use
 
 Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
-
-#### Data Format
-Each question in the dataset is a multiple-choice questions with 4 choices and only one choice as the correct answer.  The data is comma saperated .csv file. Here is an example:
-```
-
-```
-
 
 #### Prompt
 
