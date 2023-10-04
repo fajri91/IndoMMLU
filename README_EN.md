@@ -26,7 +26,7 @@ We introduce IndoMMLU, the first multi-task language understanding benchmark for
 which consists of questions from primary school to university entrance exams in Indonesia. By employing professional teachers, 
 we obtain 14,906 questions across 63 tasks and education levels, with 46\% of the questions focusing on assessing proficiency 
 in the Indonesian language and knowledge of nine local languages and cultures in Indonesia.
-<p align="left"> <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-dist.png?raw=true" style="width: 50%;" id="title-icon">       </p>
+<p align="left"> <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-dist.png?raw=true" style="width: 70%;" id="title-icon">       </p>
 
 ## Subjects
 
