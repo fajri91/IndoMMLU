@@ -54,9 +54,9 @@ The following table displays the performance of models in the five-shot and zero
  | [BLOOMZ (3B)](https://huggingface.co/bigscience/bloomz-3b) | 33.5 | 44.5 | 39.7 | 46.7 | 29.8 | 36.4 |
  | [BLOOMZ (7.1B)](https://huggingface.co/bigscience/bloomz-7b1) | 37.1 | 46.7 | 44.0 | 49.1 | 28.2 | 38.0 |
  | [mT0<sub>small</sub> (300M)](https://huggingface.co/bigscience/mt0-small) | 21.8 | 21.4 | 25.7 | 25.1 | 27.6 | 24.9 |
- | [mT0<sub>base}</sub> (580M)](https://huggingface.co/bigscience/mt0-base) | 22.6 | 22.6 | 25.7 | 25.6 | 26.9 | 25.0 |
- | [mT0<sub>large}</sub> (1.2B)](https://huggingface.co/bigscience/mt0-large) | 22.0 | 23.4 | 25.1 | 27.3 | 27.6 | 25.2 |
- | [mT0<sub>xl}</sub> (3.7B)](https://huggingface.co/bigscience/mt0-xl) | 31.4 | 42.9 | 41.0 | 47.8 | 35.7 | 38.2 |
+ | [mT0<sub>base</sub> (580M)](https://huggingface.co/bigscience/mt0-base) | 22.6 | 22.6 | 25.7 | 25.6 | 26.9 | 25.0 |
+ | [mT0<sub>large</sub> (1.2B)](https://huggingface.co/bigscience/mt0-large) | 22.0 | 23.4 | 25.1 | 27.3 | 27.6 | 25.2 |
+ | [mT0<sub>xl</sub> (3.7B)](https://huggingface.co/bigscience/mt0-xl) | 31.4 | 42.9 | 41.0 | 47.8 | 35.7 | 38.2 |
  | [mT0<sub>xxl</sub> (13B)](https://huggingface.co/bigscience/mt0-xxl) | 33.5 | 46.2 | 47.9 | 52.6 | **39.6** | 42.5 |
  | [LLaMA (7B)](https://arxiv.org/abs/2302.13971) | 22.8 | 23.1 | 25.1 | 26.7 | 27.6 | 25.3 |
  | [LLaMA (13B)](https://arxiv.org/abs/2302.13971) | 24.1 | 23.0 | 24.4 | 29.5 | 26.7 | 25.3 |
