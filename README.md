@@ -44,8 +44,8 @@ Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yai
 ## Contoh Pertanyaan
 
 <p align="left"> 
-    <img src="https://github.com/fajri91/eval_picts/blob/master/min_example.png?raw=true" style="width: 38%;" id="title-icon"> 
-    <img src="https://github.com/fajri91/eval_picts/blob/master/sec_example.png?raw=true" style="width: 37%;" id="title-icon">
+    <img src="https://github.com/fajri91/eval_picts/blob/master/min_example.png?raw=true" style="width: 45%;" id="title-icon"> 
+    <img src="https://github.com/fajri91/eval_picts/blob/master/sec_example.png?raw=true" style="width: 45%;" id="title-icon">
 </p>
 
 ## Evaluasi
