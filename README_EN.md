@@ -4,7 +4,7 @@
 )](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
 )](https://github.com/EleutherAI/lm-evaluation-harness)
 
-<p align="center"> <img src="fig/banner.jpg" style="width: 100%;" id="title-icon">       </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/fajri91/eval_picts/master/IndoMMLU-Bar.png" style="width: 100%;" id="title-icon">       </p>
 
 <h4 align="center">
     <p>
@@ -21,17 +21,19 @@
 
 ## Introduction
 
-we introduce IndoMMLU, the first multi-task language understanding benchmark for Indonesian culture and languages, 
+We introduce IndoMMLU, the first multi-task language understanding benchmark for Indonesian culture and languages, 
 which consists of questions from primary school to university entrance exams in Indonesia. By employing professional teachers, 
 we obtain 14,906 questions across 63 tasks and education levels, with 46\% of the questions focusing on assessing proficiency 
 in the Indonesian language and knowledge of nine local languages and cultures in Indonesia.
 <p align="center"> <img src="fig/logo.jpg" style="width: 85%;" id="title-icon">       </p>
 
-## Leaderboard
+## Dataset Construction
+
+We ask professional teachers (of Indonesian nationality) to collect exam questions from various educational levels in Indonesian schools (i.e.~primary school, junior high school, senior high school, and university). We categorize the collected questions into different subject areas, including: (1) STEM (Science, Technology, Engineering, and Mathematics); (2) Social Science; (3) Humanities; (4) Indonesian Language; and (5) Local Languages and Cultures. 
 
 
 > **Note**
-> This benchmark aims to showcase the capabilities of large language models, in order to help the community gain a better understanding of their performance in Chinese. Considering the limitations of the testing format and to ensure fairness and transparency in the evaluation, we have decided to present models that are **already open-sourced or have open APIs** separately from those that are **not yet open-sourced or lack open APIs** in the rankings. 
+> 
 
 The following table displays the performance of models in the five-shot and zero-shot settings. 
 
