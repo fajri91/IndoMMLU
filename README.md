@@ -28,7 +28,7 @@ IndoMMLU memiliki 14.906 pertanyaan, dan 63 tasks (kombinasi mata pelajaran dan 
 muatan lokal bahasa daerah yang ada di Indonesia. Ini mencakup mata pelajaran Bahasa Sunda, Bahasa Jawa, Bahasa Bali, Bahasa Makassar, Bahasa Banjar, Bahasa Lampung, Bahasa Madura,
 Budaya Alam Minangkabau (BAM), dan Bahasa Dayak Ngaju
 
-<p align="left"> <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-dist.png?raw=true" style="width: 50%;" id="title-icon">       </p>
+<p align="left"> <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-dist.png?raw=true" style="width: 70%;" id="title-icon">       </p>
 
 ## Mata Pelajaran
 
