@@ -1,4 +1,4 @@
-## IndoMMLU: Indonesian Multi-task Language Understanding
+# IndoMMLU
 
 [![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg
 )](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
@@ -7,7 +7,7 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/fajri91/eval_picts/master/IndoMMLU-Bar.png" style="width: 100%;" id="title-icon">       </p>
 
 <h4 align="center">
-    <p>
+    <p>https://raw.githubusercontent.com/fajri91/eval_picts/master/IndoMMLU-Bar.png
         <a href="https://github.com/fajri91/IndoMMLU/">Bahasa Indonesia</a> |
         <b>English</b> 
     <p>
