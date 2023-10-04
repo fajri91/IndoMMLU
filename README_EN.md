@@ -85,13 +85,6 @@ The following table displays the performance of models in the five-shot and zero
     <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-result.png?raw=true" style="width: 38%;" id="title-icon">
 </p>
 
-
-
-## How to submit 
-
-* For open-source/API models, open pull request to update the result (you can also provide test code in `src` folder).
-* For not open-source/API models, update results in the cooresponding part and open pull request.
-
 ## Data
 Each question in the dataset is a multiple-choice questions with up to 5 choices and only one choice as the correct answer. 
 We provide our dataset according to each subject in [data](data) folder. You can also access our dataset via [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
