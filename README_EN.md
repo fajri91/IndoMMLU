@@ -4,10 +4,12 @@
 )](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
 )](https://github.com/EleutherAI/lm-evaluation-harness)
 
-<p align="center"> <img src="https://raw.githubusercontent.com/fajri91/eval_picts/master/IndoMMLU-Bar.png" style="width: 100%;" id="title-icon">       </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/fajri91/eval_picts/master/IndoMMLU-Bar.png" style="width: 100%;" id="title-icon">       
+</p>
+<p align="center"> <a href="http://www.fajrikoto.com" target="_blank">Fajri Koto</a>, <a href="https://www.linkedin.com/in/nuaisyah/" target="_blank">Nurul Aisyah</a>, <a href="https://haonan-li.github.io/" target="_blank">Haonan Li</a>, <a href="https://people.eng.unimelb.edu.au/tbaldwin/" target="_blank">Timothy Baldwin</a> </p>
 
 <h4 align="center">
-    <p>https://raw.githubusercontent.com/fajri91/eval_picts/master/IndoMMLU-Bar.png
+    <p>
         <a href="https://github.com/fajri91/IndoMMLU/">Bahasa Indonesia</a> |
         <b>English</b> 
     <p>
