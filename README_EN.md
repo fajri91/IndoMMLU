@@ -27,16 +27,27 @@ We introduce IndoMMLU, the first multi-task language understanding benchmark for
 which consists of questions from primary school to university entrance exams in Indonesia. By employing professional teachers, 
 we obtain 14,906 questions across 63 tasks and education levels, with 46\% of the questions focusing on assessing proficiency 
 in the Indonesian language and knowledge of nine local languages and cultures in Indonesia.
-<p align="center"> <img src="fig/logo.jpg" style="width: 85%;" id="title-icon">       </p>
+<p align="center"> <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-dist.png?raw=true" style="width: 60%;" id="title-icon">       </p>
 
-## Dataset Construction
+## Subjects
 
-We ask professional teachers (of Indonesian nationality) to collect exam questions from various educational levels in Indonesian schools (i.e.~primary school, junior high school, senior high school, and university). We categorize the collected questions into different subject areas, including: (1) STEM (Science, Technology, Engineering, and Mathematics); (2) Social Science; (3) Humanities; (4) Indonesian Language; and (5) Local Languages and Cultures. 
+ | Level     | Subjects                           | 
+ |-----------|------------------------------------|
+ | SD (Primary School)  | Science, Social science, Civics, Indonesian Language, Balinese, Makassarese, Banjarese, Lampungic, Madurese, Sundanese, Javanese, Dayak Ngaju, Minangkabau culture, Art, Sports, Islam religion, Christian religion, Hindu religion |
+ | SMP (Junior High School) | Science, Social science, Civics, Indonesian Language, Balinese, Makassarese, Banjarese, Lampungic, Madurese, Sundanese, Javanese, Minangkabau culture, Art, Sports, Islam religion, Christian religion, Hindu religion | 
+ | SMA (Senior High School) | Physics, Chemistry, Biology, Geography, Sociology, Economics, History, Civics, Indonesian Language, Balinese, Makassarese, Banjarese, Lampungic, Madurese, Sundanese, Javanese, Art, Sports, Islam religion, Christian religion, Hindu religion | 
+ University Entrance Test | Chemistry, Biology, Geography, Sociology, Economics, History, Indonesian Language |
 
+We categorize the collected questions into different subject areas, including: (1) STEM (Science, Technology, Engineering, and Mathematics); (2) Social Science; (3) Humanities; (4) Indonesian Language; and (5) Local Languages and Cultures. 
 
-> **Note**
-> 
+## Examples
 
+<p align="center"> 
+    <img src="https://github.com/fajri91/eval_picts/blob/master/min_example.png?raw=true" style="width: 40%;" id="title-icon"> 
+    <img src="https://github.com/fajri91/eval_picts/blob/master/sec_example.png?raw=true" style="width: 40%;" id="title-icon">
+</p>
+
+## Evaluation
 The following table displays the performance of models in the five-shot and zero-shot settings. 
 
 #### Zero-shot Evaluation
