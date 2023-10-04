@@ -15,7 +15,7 @@
     <p>
         <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
         📄 <a href="https://arxiv.org/abs/2306.09212" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
-        🏆 <a href="https://github.com/fajri91/IndoMMLU/#evaluation" target="_blank"  style="margin-left: 10px">Leaderboard</a> •
+        🏆 <a href="https://github.com/fajri91/IndoMMLU/blob/main/README_EN.md#evaluation" target="_blank"  style="margin-left: 10px">Leaderboard</a> •
         🤗 <a href="https://huggingface.co/datasets/indolem/indommlu" target="_blank" style="margin-left: 10px">Dataset</a> 
         </p>
 </h4>
