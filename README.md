@@ -93,7 +93,7 @@ Ini adalah soal [subject] untuk [level]. Pilihlah salah satu jawaban yang diangg
     <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-result.png?raw=true" style="width: 38%;" id="title-icon">
 </p>
 
-Warna merah mengindikasikan bahwa nilai GPT-3.5 tidak tuntas (melewati batas KKM 65.0), sementara warna hijau menyatakan bahwa nilai GPT-3.5 di atas KKM. Secara keseluruhan, bisa dilihat bahwa ChatGPT umumnya hanya lulus ujian tingkat Sekolah Dasar.
+Warna merah mengindikasikan bahwa nilai GPT-3.5 tidak tuntas (di bawah Kriteria Kelulusan Minimal / KKM 65.0), sementara warna hijau menyatakan bahwa nilai GPT-3.5 di atas KKM. Secara keseluruhan, bisa dilihat bahwa ChatGPT umumnya hanya lulus ujian tingkat Sekolah Dasar.
 
 ### Few-shot Evaluation
 
