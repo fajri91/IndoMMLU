@@ -50,7 +50,7 @@ These questions are written in Indonesian. For local language subjects, some are
 
 ## Evaluation
 
-We evaluate 24 multilingual LLMs of different sizes in zero-shot and few-shot settings. This includes GPT-3.5 (ChatGPT), [XGLM](https://arxiv.org/abs/2112.10668), [Falcon](https://falconllm.tii.ae/), [BLOOMZ](https://huggingface.co/bigscience/bloomz), [mT0](https://huggingface.co/bigscience/bloomz), [LLaMA]((https://arxiv.org/abs/2302.13971)), and [Bactrian-X](https://github.com/mbzuai-nlp/bactrian-x). Prior to the question and multiple-choice options, we add a simple prompt in the Indonesian language:
+We evaluate 24 multilingual LLMs of different sizes in zero-shot and few-shot settings. This includes [GPT-3.5 (ChatGPT)](https://chat.openai.com/), [XGLM](https://arxiv.org/abs/2112.10668), [Falcon](https://falconllm.tii.ae/), [BLOOMZ](https://huggingface.co/bigscience/bloomz), [mT0](https://huggingface.co/bigscience/bloomz), [LLaMA](https://arxiv.org/abs/2302.13971), and [Bactrian-X](https://github.com/mbzuai-nlp/bactrian-x). Prior to the question and multiple-choice options, we add a simple prompt in the Indonesian language:
 
 > **Ini adalah soal [subject] untuk [level]. Pilihlah salah satu jawaban yang dianggap benar!**
 > 
