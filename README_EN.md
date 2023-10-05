@@ -92,6 +92,8 @@ We evaluate 24 multilingual LLMs of different sizes in zero-shot and few-shot se
     <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-result.png?raw=true" style="width: 38%;" id="title-icon">
 </p>
 
+Red indicates that the score is below the minimum passing threshold of 65, while green signifies a score at or above this minimum. We can observe that ChatGPT mostly passes a score of 65 in Indonesian primary school exams.
+
 #### Few-shot Evaluation
 
 <p align="left"> 
