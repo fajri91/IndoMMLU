@@ -23,7 +23,7 @@
 ## Pengantar
 
 IndoMMLU merupakan sebuah dataset berbahasa Indonesia pertama untuk *multi-task language understanding*. Dataset ini berisikan kumpulan soal
-berbagai mata pelajar dari jenjang Sekolah Dasar, Sekolah Menengah Pertama, Sekolah Menengah Atas, dan Ujian Seleksi Masuk Perguruan Tinggi di Indonesia. 
+berbagai mata pelajaran dari jenjang Sekolah Dasar, Sekolah Menengah Pertama, Sekolah Menengah Atas, dan Ujian Seleksi Masuk Perguruan Tinggi di Indonesia. 
 IndoMMLU berbasiskan kurikulum pendidikan Indonesia dan memiliki 14.906 pertanyaan, dan 63 tasks (kombinasi mata pelajaran dan jenjang sekolah). 46\% pertanyaan IndoMMLU berfokus pada soal bahasa Indonesia dan 
 muatan lokal bahasa daerah yang ada di Indonesia. Ini mencakup mata pelajaran Bahasa Sunda, Bahasa Jawa, Bahasa Bali, Bahasa Makassar, Bahasa Banjar, Bahasa Lampung, Bahasa Madura,
 Budaya Alam Minangkabau (BAM), dan Bahasa Dayak Ngaju
@@ -50,7 +50,7 @@ Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yai
 
 ## Evaluasi
 
-Kami mengevaluasi 24 LLM multibahasa dalam ukuran berbeda dengan pengaturan _zero-shot_ dan _few-shot_. In termasuk  GPT-3.5 (ChatGPT), [XGLM](https://arxiv.org/abs/2112.10668), [Falcon](https://falconllm.tii.ae/), [BLOOMZ](https://huggingface.co/bigscience/bloomz), [mT0](https://huggingface.co/bigscience/bloomz), [LLaMA]((https://arxiv.org/abs/2302.13971)), and [Bactrian-X](https://github.com/mbzuai-nlp/bactrian-x).
+Kami mengevaluasi 24 LLM multibahasa dalam ukuran berbeda dengan pengaturan _zero-shot_ dan _few-shot_. In termasuk  [GPT-3.5 (ChatGPT)](https://chat.openai.com/), [XGLM](https://arxiv.org/abs/2112.10668), [Falcon](https://falconllm.tii.ae/), [BLOOMZ](https://huggingface.co/bigscience/bloomz), [mT0](https://huggingface.co/bigscience/bloomz), [LLaMA](https://arxiv.org/abs/2302.13971), and [Bactrian-X](https://github.com/mbzuai-nlp/bactrian-x).
 Sebelum pertanyaan dan pilihan ganda, kami menambahkan sebuah _prompt_ dalam bahasa Indonesia:
 
 > **Ini adalah soal [subject] untuk [level]. Pilihlah salah satu jawaban yang dianggap benar!**
