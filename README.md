@@ -24,7 +24,7 @@
 
 IndoMMLU merupakan sebuah dataset berbahasa Indonesia pertama untuk *multi-task language understanding*. Dataset ini berisikan kumpulan soal
 berbagai mata pelajar dari jenjang Sekolah Dasar, Sekolah Menengah Pertama, Sekolah Menengah Atas, dan Ujian Seleksi Masuk Perguruan Tinggi di Indonesia. 
-IndoMMLU memiliki 14.906 pertanyaan, dan 63 tasks (kombinasi mata pelajaran dan jenjang sekolah). 46\% pertanyaan IndoMMLU berfokus pada soal bahasa Indonesia dan 
+IndoMMLU berbasiskan kurikulum pendidikan Indonesia dan memiliki 14.906 pertanyaan, dan 63 tasks (kombinasi mata pelajaran dan jenjang sekolah). 46\% pertanyaan IndoMMLU berfokus pada soal bahasa Indonesia dan 
 muatan lokal bahasa daerah yang ada di Indonesia. Ini mencakup mata pelajaran Bahasa Sunda, Bahasa Jawa, Bahasa Bali, Bahasa Makassar, Bahasa Banjar, Bahasa Lampung, Bahasa Madura,
 Budaya Alam Minangkabau (BAM), dan Bahasa Dayak Ngaju
 
@@ -39,7 +39,7 @@ Budaya Alam Minangkabau (BAM), dan Bahasa Dayak Ngaju
  | SMA (Sekolah Menengah Atas) | PPKN, Fisika, Kimia, Biologi, Geografi, Sosiologi, Ekonomi, Sejarah, PPKN, Bahasa Indonesia, Bahasa Sunda, Bahasa Jawa, Bahasa Bali, Bahasa Makassar, Bahasa Banjar, Bahasa Lampung, Bahasa Madura, Pendidikan Seni, Olah Raga, Agama Islam, Agama Kristen, Agama Hindu| 
  Ujian Seleksi Masuk Perguruan Tinggi | Kimia, Biologi, Geografi, Sosiologi, Ekonomi, Sejarah, Bahasa Indonesia |
 
-Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yaitu: (1) STEM (Science, Technology, Engineering, and Mathematics); (2) Social Science; (3) Humanities; (4) Indonesian Language; and (5) Local Languages and Cultures. 
+Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yaitu: (1) STEM (Ilmu Alama, Teknologi, Teknik, and Matematika); (2) Ilmu Sosial; (3) Humaniora; (4) Bahasa Indonesia; and (5) Bahasa dan Budaya Lokal. 
 
 ## Contoh Pertanyaan
 
@@ -80,7 +80,7 @@ Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yai
  | [Bactrian-X-LLaMA (7B)](https://github.com/mbzuai-nlp/bactrian-x) | 23.3 | 24.0 | 26.0 | 26.1 | 27.5 | 25.7 |
  | [Bactrian-X-LLaMA (13B)](https://github.com/mbzuai-nlp/bactrian-x) | 28.3 | 29.9 | 32.8 | 35.2 | 29.2 | 30.3 |
 
-#### Performa GPT-3.5 (ChatGPT) dalam berbegai level pendidikan
+#### Performa GPT-3.5 (ChatGPT) dalam berbagai level pendidikan
 
 <p align="left"> 
     <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-result.png?raw=true" style="width: 38%;" id="title-icon">
