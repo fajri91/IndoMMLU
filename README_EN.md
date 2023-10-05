@@ -41,13 +41,20 @@ We categorize the collected questions into different subject areas, including: (
 
 ## Examples
 
+These questions are written in Indonesian. For local language subjects, some are written in the local languages. The English version is for illustrative purposes only.
+
 <p align="left"> 
     <img src="https://github.com/fajri91/eval_picts/blob/master/min_example.png?raw=true" style="width: 45%;" id="title-icon"> 
     <img src="https://github.com/fajri91/eval_picts/blob/master/sec_example.png?raw=true" style="width: 45%;" id="title-icon">
 </p>
 
 ## Evaluation
-The following table displays the performance of models in the five-shot and zero-shot settings. 
+
+We evaluate 24 multilingual LLMs of different sizes in zero-shot and few-shot settings. This includes GPT-3.5 (ChatGPT), [XGLM](https://arxiv.org/abs/2112.10668), [Falcon](https://falconllm.tii.ae/), [BLOOMZ](https://huggingface.co/bigscience/bloomz), [mT0](https://huggingface.co/bigscience/bloomz), [LLaMA]((https://arxiv.org/abs/2302.13971)), and [Bactrian-X](https://github.com/mbzuai-nlp/bactrian-x). Prior to the question and multiple-choice options, we add a simple prompt in the Indonesian language:
+
+> **Ini adalah soal [subject] untuk [level]. Pilihlah salah satu jawaban yang dianggap benar!**
+> 
+> English Translation: **This is a [subject] question for [level]. Please choose the correct answer!**
 
 #### Zero-shot Evaluation
 
@@ -85,6 +92,12 @@ The following table displays the performance of models in the five-shot and zero
     <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-result.png?raw=true" style="width: 38%;" id="title-icon">
 </p>
 
+#### Few-shot Evaluation
+
+<p align="left"> 
+    <img src="https://github.com/fajri91/eval_picts/blob/master/plot_fewshot.png?raw=true" style="width: 35%;" id="title-icon">
+</p>
+
 ## Data
 Each question in the dataset is a multiple-choice questions with up to 5 choices and only one choice as the correct answer. 
 We provide our dataset according to each subject in [data](data) folder. You can also access our dataset via [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
@@ -92,8 +105,6 @@ We provide our dataset according to each subject in [data](data) folder. You can
 #### Quick Use
 
 Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
-
-#### Prompt
 
 #### Evaluation
 The code for evaluation of each model we used is in [src](src), and the code to run them is listed in [script](script) directory.
