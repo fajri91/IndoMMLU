@@ -87,12 +87,12 @@ Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yai
 </p>
 
 ## Data
-Each question in the dataset is a multiple-choice questions with up to 5 choices and only one choice as the correct answer. 
-We provide our dataset according to each subject in [data](data) folder. You can also access our dataset via [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
+Setiap pertanyaan dalam dataset ini merupakan soal pilihan ganda dengan 3-5 pilihan, dengan hanya satu jawaban benar.
+Dataset tersedia di folder [data](data). Anda juga bisa mengakses data di tauatan [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
 
-#### Quick Use
+#### Penggunaan praktis untuk evaluasi
 
-Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
+Selain kode evaluasi yang kami gunakan, Anda juga bisa melakukan evaluasi LLM menggunakan [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass). IndoMMLU telah kami tambahkan ke kedua *framework* evaluasi tersebut.
 
 #### Prompt
 
