@@ -24,7 +24,7 @@
 
 IndoMMLU merupakan sebuah dataset berbahasa Indonesia pertama untuk *multi-task language understanding*. Dataset ini berisikan kumpulan soal
 berbagai mata pelajar dari jenjang Sekolah Dasar, Sekolah Menengah Pertama, Sekolah Menengah Atas, dan Ujian Seleksi Masuk Perguruan Tinggi di Indonesia. 
-IndoMMLU memiliki 14.906 pertanyaan, dan 63 tasks (kombinasi mata pelajaran dan jenjang sekolah). 46\% pertanyaan IndoMMLU berfous pada soal bahasa Indonesia dan 
+IndoMMLU memiliki 14.906 pertanyaan, dan 63 tasks (kombinasi mata pelajaran dan jenjang sekolah). 46\% pertanyaan IndoMMLU berfokus pada soal bahasa Indonesia dan 
 muatan lokal bahasa daerah yang ada di Indonesia. Ini mencakup mata pelajaran Bahasa Sunda, Bahasa Jawa, Bahasa Bali, Bahasa Makassar, Bahasa Banjar, Bahasa Lampung, Bahasa Madura,
 Budaya Alam Minangkabau (BAM), dan Bahasa Dayak Ngaju
 
