@@ -50,7 +50,12 @@ Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yai
 
 ## Evaluasi
 
-#### Evaluasi *Zero-shot*
+Kami mengevaluasi 24 LLM multibahasa dalam ukuran berbeda dengan pengaturan _zero-shot_ dan _few-shot_. In termasuk  GPT-3.5 (ChatGPT), [XGLM](https://arxiv.org/abs/2112.10668), [Falcon](https://falconllm.tii.ae/), [BLOOMZ](https://huggingface.co/bigscience/bloomz), [mT0](https://huggingface.co/bigscience/bloomz), [LLaMA]((https://arxiv.org/abs/2302.13971)), and [Bactrian-X](https://github.com/mbzuai-nlp/bactrian-x).
+Sebelum pertanyaan dan pilihan ganda, kami menambahkan sebuah _prompt_ dalam bahasa Indonesia:
+
+> **Ini adalah soal [subject] untuk [level]. Pilihlah salah satu jawaban yang dianggap benar!**
+
+### Evaluasi *Zero-shot*
 
  | Model (#param) | STEM | Social Science | Humanities | Indonesian Lang. | Local L. Culture | Average |
  |---------------------|------|----------|-------------|---------|----------|---------|
@@ -80,23 +85,30 @@ Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yai
  | [Bactrian-X-LLaMA (7B)](https://github.com/mbzuai-nlp/bactrian-x) | 23.3 | 24.0 | 26.0 | 26.1 | 27.5 | 25.7 |
  | [Bactrian-X-LLaMA (13B)](https://github.com/mbzuai-nlp/bactrian-x) | 28.3 | 29.9 | 32.8 | 35.2 | 29.2 | 30.3 |
 
-#### Performa GPT-3.5 (ChatGPT) dalam berbagai level pendidikan
+### Performa GPT-3.5 (ChatGPT) dalam berbagai level pendidikan
 
 <p align="left"> 
     <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-result.png?raw=true" style="width: 38%;" id="title-icon">
+</p>
+
+### Few-shot Evaluation
+
+<p align="left"> 
+    <img src="https://github.com/fajri91/eval_picts/blob/master/plot_fewshot.png?raw=true" style="width: 35%;" id="title-icon">
 </p>
 
 ## Data
 Setiap pertanyaan dalam dataset ini merupakan soal pilihan ganda dengan 3-5 pilihan, dengan hanya satu jawaban benar.
 Dataset tersedia di folder [data](data). Anda juga bisa mengakses data di tauatan [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
 
-#### Penggunaan praktis untuk evaluasi
+## Penggunaan praktis untuk evaluasi
 
 Selain kode evaluasi yang kami gunakan, Anda juga bisa melakukan evaluasi LLM menggunakan [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass). IndoMMLU telah kami tambahkan ke kedua *framework* evaluasi tersebut.
 
-#### Prompt
-
 ## Pengutipan
+
+Jangan lupa untuk membaca dan mengutip paper kami yang dipublikasikan di _main conference_ EMNLP 2023.
+
 ```
 @inproceedings{koto-etal-2023-indommlu,
     title = "Large Language Models Only Pass Primary School Exams in {I}ndonesia: A Comprehensive Test on {I}ndo{MMLU}",
