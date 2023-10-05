@@ -53,7 +53,9 @@ Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yai
 Kami mengevaluasi 24 LLM multibahasa dalam ukuran berbeda dengan pengaturan _zero-shot_ dan _few-shot_. In termasuk  [GPT-3.5 (ChatGPT)](https://chat.openai.com/), [XGLM](https://arxiv.org/abs/2112.10668), [Falcon](https://falconllm.tii.ae/), [BLOOMZ](https://huggingface.co/bigscience/bloomz), [mT0](https://huggingface.co/bigscience/bloomz), [LLaMA](https://arxiv.org/abs/2302.13971), and [Bactrian-X](https://github.com/mbzuai-nlp/bactrian-x).
 Sebelum pertanyaan dan pilihan ganda, kami menambahkan sebuah _prompt_ dalam bahasa Indonesia:
 
-> **Ini adalah soal [subject] untuk [level]. Pilihlah salah satu jawaban yang dianggap benar!**
+```
+Ini adalah soal [subject] untuk [level]. Pilihlah salah satu jawaban yang dianggap benar!
+```
 
 ### Evaluasi *Zero-shot*
 
