@@ -56,6 +56,7 @@ Sebelum pertanyaan dan pilihan ganda, kami menambahkan sebuah _prompt_ dalam bah
 ```
 Ini adalah soal [subject] untuk [level]. Pilihlah salah satu jawaban yang dianggap benar!
 ```
+Untuk menjalankan kode evaluasi, silakan melihat script `run.sh`
 
 ### Evaluasi *Zero-shot*
 
@@ -104,6 +105,7 @@ Warna merah mengindikasikan bahwa nilai GPT-3.5 tidak tuntas (di bawah Kriteria 
 ## Data
 Setiap pertanyaan dalam dataset ini merupakan soal pilihan ganda dengan 3-5 pilihan, dengan hanya satu jawaban benar.
 Dataset tersedia di folder [data](data). Anda juga bisa mengakses data di tauatan [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
+
 
 ## Penggunaan praktis untuk evaluasi
 
