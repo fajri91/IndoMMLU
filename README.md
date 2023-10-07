@@ -45,6 +45,8 @@ Kami mengelompokkan pertanyaan-pertanyaan IndoMMLU kedalam 5 kelompok besar, yai
 
 ## Contoh Pertanyaan
 
+Pertanyaan-pertanyaan IndoMMLU tertulis dalam bahasa Indonesia. Untuk mata pelajaran bahasa dan budaya daerah, beberapa tertulis dalam bahasa daerah tersebut. Bahasa Inggris yang ada pada contoh di bawah ini hanya sebagai pelengkap untuk penulisan paper.
+
 <p align="left"> 
     <img src="https://github.com/fajri91/eval_picts/blob/master/min_example.png?raw=true" style="width: 45%;" id="title-icon"> 
     <img src="https://github.com/fajri91/eval_picts/blob/master/sec_example.png?raw=true" style="width: 45%;" id="title-icon">
