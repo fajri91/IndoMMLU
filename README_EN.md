@@ -1,8 +1,10 @@
 # IndoMMLU
 
+<!---
 [![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg
 )](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
 )](https://github.com/EleutherAI/lm-evaluation-harness)
+-->
 
 <p align="center"> <img src="https://raw.githubusercontent.com/fajri91/eval_picts/master/IndoMMLU-Bar.png" style="width: 100%;" id="title-icon">       
 </p>
@@ -14,7 +16,7 @@
         <b>English</b> 
     <p>
         <p align="center" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
-        📄 <a href="https://arxiv.org/abs/2306.09212" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
+        📄 <a href="https://github.com/fajri91/IndoMMLU/blob/main/IndoMMLU%20-%20Paper.pdf" target="_blank" style="margin-right: 15px; margin-left: 10px">Paper</a> • 
         🏆 <a href="https://github.com/fajri91/IndoMMLU/blob/main/README_EN.md#evaluation" target="_blank"  style="margin-left: 10px">Leaderboard</a> •
         🤗 <a href="https://huggingface.co/datasets/indolem/indommlu" target="_blank" style="margin-left: 10px">Dataset</a> 
         </p>
@@ -102,15 +104,17 @@ Red indicates that the score is below the minimum passing threshold of 65, while
 </p>
 
 ## Data
-Each question in the dataset is a multiple-choice questions with up to 5 choices and only one choice as the correct answer. 
+Each question in the dataset is a multiple-choice question with up to 5 choices and only one choice as the correct answer. 
 We provide our dataset according to each subject in [data](data) folder. You can also access our dataset via [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
 
+<!--
 #### Quick Use
 
 Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
+-->
 
 #### Evaluation
-The code for evaluation of each model we used is in [src](src), and the code to run them is listed in [script](script) directory.
+The code for the evaluation of each model we used is in `evaluate.py`, and the code to run them is listed in `run.sh`.
 
 ## Citation
 ```
