@@ -1,8 +1,10 @@
 # IndoMMLU
 
+<!--
 [![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg
 )](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
 )](https://github.com/EleutherAI/lm-evaluation-harness)
+-->
 
 <p align="center"> <img src="https://raw.githubusercontent.com/fajri91/eval_picts/master/IndoMMLU-Bar.png" style="width: 100%;" id="title-icon">       
 </p>
@@ -106,10 +108,11 @@ Warna merah mengindikasikan bahwa nilai GPT-3.5 tidak tuntas (di bawah Kriteria 
 Setiap pertanyaan dalam dataset ini merupakan soal pilihan ganda dengan 3-5 pilihan, dengan hanya satu jawaban benar.
 Dataset tersedia di folder [data](data). Anda juga bisa mengakses data di tauatan [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
 
-
+<!--
 ## Penggunaan praktis untuk evaluasi
 
 Selain kode evaluasi yang kami gunakan, Anda juga bisa melakukan evaluasi LLM menggunakan [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass). IndoMMLU telah kami tambahkan ke kedua *framework* evaluasi tersebut.
+-->
 
 ## Pengutipan
 
