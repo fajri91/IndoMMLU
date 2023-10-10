@@ -108,7 +108,7 @@ Warna merah mengindikasikan bahwa nilai GPT-3.5 tidak tuntas (di bawah Kriteria 
 
 ## Data
 Setiap pertanyaan dalam dataset ini merupakan soal pilihan ganda dengan 3-5 pilihan, dengan hanya satu jawaban benar.
-Dataset tersedia di folder [data](data). Anda juga bisa mengakses data di tauatan [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
+Dataset (mentah) yang digunakan untuk eksperimen pada paper tersedia di folder [data](data). Untuk versi data yang lebih rapi, Anda disarankan untuk mengakses data di tautan [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
 ```
 import datasets
 data = datasets.load_dataset('indolem/IndoMMLU')
