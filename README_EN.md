@@ -106,6 +106,10 @@ Red indicates that the score is below the minimum passing threshold of 65, while
 ## Data
 Each question in the dataset is a multiple-choice question with up to 5 choices and only one choice as the correct answer. 
 We provide our dataset according to each subject in [data](data) folder. You can also access our dataset via [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
+```
+import datasets
+data = datasets.load_dataset('indolem/IndoMMLU')
+```
 
 <!--
 #### Quick Use
