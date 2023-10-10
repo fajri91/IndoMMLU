@@ -30,6 +30,22 @@ we obtain 14,906 questions across 63 tasks and education levels, with 46\% of th
 in the Indonesian language and knowledge of nine local languages and cultures in Indonesia.
 <p align="left"> <img src="https://github.com/fajri91/eval_picts/blob/master/IndoMMLU-dist.png?raw=true" style="width: 70%;" id="title-icon">       </p>
 
+## Data
+Each question in the dataset is a multiple-choice question with up to 5 choices and only one choice as the correct answer. 
+The dataset used in the EMNLP paper can be accessed in [data](data) folder. For the cleaner version, please access our dataset via [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
+
+```
+import datasets
+data = datasets.load_dataset('indolem/IndoMMLU')
+```
+
+<!--
+#### Quick Use
+
+Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
+-->
+
+
 ## Subjects
 
  | Level     | Subjects                           | 
@@ -102,20 +118,6 @@ Red indicates that the score is below the minimum passing threshold of 65, while
 <p align="left"> 
     <img src="https://github.com/fajri91/eval_picts/blob/master/plot_fewshot.png?raw=true" style="width: 35%;" id="title-icon">
 </p>
-
-## Data
-Each question in the dataset is a multiple-choice question with up to 5 choices and only one choice as the correct answer. 
-We provide our dataset according to each subject in [data](data) folder. You can also access our dataset via [Hugging Face](https://huggingface.co/datasets/indolem/indommlu).
-```
-import datasets
-data = datasets.load_dataset('indolem/IndoMMLU')
-```
-
-<!--
-#### Quick Use
-
-Our dataset has been added to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and [OpenCompass](https://github.com/InternLM/opencompass), you can evaluate your model via these open-source tools.
--->
 
 #### Evaluation
 The code for the evaluation of each model we used is in `evaluate.py`, and the code to run them is listed in `run.sh`.
